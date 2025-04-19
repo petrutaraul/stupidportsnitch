@@ -1,0 +1,119 @@
+/* HTML Export Styles */
+.html-export {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .host-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .host-header {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .host-body {
+    padding: 15px;
+  }
+
+  .port-open {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .port-closed {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+
+  .port-filtered {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+
+  .summary-box {
+    background-color: #e9ecef;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .app-title {
+    margin: 0;
+  }
+
+  .footer {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    text-align: center;
+    color: #666;
+  }
+
+  .coffee-btn {
+    display: inline-block;
+    background-color: #ffdd00;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #e5c700;
+    }
+  }
+}
