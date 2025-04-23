@@ -1,7 +1,7 @@
 {
   "name": "stupid-port-snitch",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A stupid port scanner with an average UI",
   "author": {
     "name": "Raul Carlos Petru Petruța",
